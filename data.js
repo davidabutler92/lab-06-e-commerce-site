@@ -1,0 +1,42 @@
+export const fruits = [
+    {
+        id: 'apple',
+        name: 'Apple',
+        image: 'apple.jpg',
+        description: 'This product has a crisp bite with a sweet after taste.',
+        category: 'produce',
+        price: 2,
+    },
+    {
+        id: 'banana',
+        name: 'Banana',
+        image: 'banana.jpg',
+        description: 'a tropical fruit that\'s quite sweet in taste.',
+        category: 'produce',
+        price: 3,
+    },
+    {
+        id: 'mango',
+        name: 'Mango',
+        image: 'mango.jpg',
+        description: 'Mangoes are a rich source of vitamins A, C, and D and has a sweet taste.',
+        category: 'produce',
+        price: 3,
+    },
+    {
+        id: 'pinapple',
+        name: 'Pineapple',
+        image: 'pineapple.png',
+        description: 'Tropical fruit with a very tangy sweet taste.',
+        category: 'produce',
+        price: 2,
+    },
+    {
+        id: 'apple',
+        name: 'Apple',
+        image: 'apple.png',
+        description: 'This product has a crisp bite with a sweet after taste.',
+        category: 'produce',
+        price: 2,
+    },
+];
