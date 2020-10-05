@@ -10,7 +10,7 @@ export const fruits = [
     {
         id: 'banana',
         name: 'Banana',
-        image: 'banana.jpg',
+        image: '../assets/banana.jpg',
         description: 'a tropical fruit that\'s quite sweet in taste.',
         category: 'produce',
         price: 3,
@@ -18,7 +18,7 @@ export const fruits = [
     {
         id: 'mango',
         name: 'Mango',
-        image: 'mango.jpg',
+        image: '../assets/mango.jpg',
         description: 'Mangoes are a rich source of vitamins A, C, and D and has a sweet taste.',
         category: 'produce',
         price: 4,
@@ -26,7 +26,7 @@ export const fruits = [
     {
         id: 'pinapple',
         name: 'Pineapple',
-        image: 'pineapple.jpg',
+        image: '../assets/pineapple.jpg',
         description: 'Tropical fruit with a very tangy sweet taste.',
         category: 'produce',
         price: 7,
@@ -34,7 +34,7 @@ export const fruits = [
     {
         id: 'kiwi',
         name: 'Kiwi',
-        image: 'kiwi.jpg',
+        image: '../assets/kiwi.jpg',
         description: 'This fruit has a soft texture with a sweet and unique flavor.',
         category: 'produce',
         price: 5,
