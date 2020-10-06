@@ -1,9 +1,10 @@
 .fruits {
     width: 200px;
     padding: 10px;
-    border: solid 9px rgb(175, 169, 169);
+    border: solid 5px rgb(11, 166, 212);
     text-align: center;
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fruits > img {
@@ -18,3 +19,4 @@
 h3 {
    font-size: 2em; 
 }
+

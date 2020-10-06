@@ -31,6 +31,5 @@ export function renderFruit(fruits) {
     button.textContent = 'Add to cart';
     li.append(button);
 
-    console.log(li);
     return li;
 }
