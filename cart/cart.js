@@ -1,5 +1,5 @@
-import { fruits } from '../data.js';
-import { renderFruit } from './product-utils.js';
+import { cart } from '../data.js';
+import { renderTableRow } from '../helper-functions.js';
 
 const ul = document.querySelector('#list');
 

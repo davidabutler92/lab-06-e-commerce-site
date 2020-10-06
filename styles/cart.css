@@ -1,0 +1,16 @@
+table { 
+    width: 100%;
+    border: solid 1px;
+}
+
+td, th {
+    border: solid 1px;
+}
+
+tr:nth-child(even) {
+    background: lightcyan
+}
+
+th {
+    background-color: lightpink;
+}

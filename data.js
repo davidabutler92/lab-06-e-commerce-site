@@ -40,3 +40,10 @@ export const fruits = [
         price: 5,
     },
 ];
+
+export const cart = [
+    {
+        id: 'apple',
+        quantity: 4,
+    }
+];
