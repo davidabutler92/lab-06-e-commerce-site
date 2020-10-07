@@ -13,8 +13,6 @@ export function renderTableRow(cartItem) {
     const tdPrice = document.createElement('td');
     const tdQuantity = document.createElement('td');
     const tdTotalCost = document.createElement('td');
-    const button = document.createElement('button');
-
     
     const fruitsData = findById(fruits, cartItem.id);
     const price = fruitsData.price;
@@ -24,9 +22,7 @@ export function renderTableRow(cartItem) {
     tdName.textContent = title;
     tdPrice.textContent = `$${price}`;
     tdTotalCost.textContent = `$${price * cartItem.quantity}`;
-
     
-
     tr.append(tdName, tdPrice, tdQuantity, tdTotalCost);
     return tr; 
 }     
