@@ -7,12 +7,10 @@ const table = document.querySelector('tbody');
 for (let i = 0; i < cartArray.length; i++) {
     const fruit = cartArray[i];
     const tr = renderTableRow(fruit);
-    console.log(tr);
     table.append(tr);
 }
 
-const total = calcTotal(cartArray, );
+const total = calcTotal(cartArray);
 const totalCell = document.querySelector('.total');
-console.log(totalCell);
 
 totalCell.textContent = `Total: $${total}`;
