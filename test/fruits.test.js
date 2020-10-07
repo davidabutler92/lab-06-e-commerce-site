@@ -1,5 +1,5 @@
 import { fruits } from '../data.js';
-import { renderFruit } from '../helper-functions.js';
+import { renderFruit } from '../products/product-utils.js';
 const test = QUnit.test;
 
 test('take in a fruit and return a list of its properties', (expect) => {

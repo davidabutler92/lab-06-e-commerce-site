@@ -1,10 +1,18 @@
-import { cart } from '../data.js';
-import { renderTableRow } from '../helper-functions.js';
+import { cartArray } from '../data.js';
+import { renderTableRow } from '../cart/cart-utils.js';
+import { calcTotal } from '../helper-functions.js'; 
 
-const ul = document.querySelector('#list');
+const table = document.querySelector('tbody');
 
-for (let i = 0; i < fruits.length; i++) {
-    const newFruit = fruits[i];
-    const li = renderFruit(newFruit);
-    ul.append(li);
+for (let i = 0; i < cartArray.length; i++) {
+    const fruit = cartArray[i];
+    const tr = renderTableRow(fruit);
+    console.log(tr);
+    table.append(tr);
 }
+
+const total = calcTotal(cartArray, );
+const totalCell = document.querySelector('.total');
+console.log(totalCell);
+
+totalCell.textContent = `Total: $${total}`;

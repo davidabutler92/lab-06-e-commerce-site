@@ -24,7 +24,7 @@ export const fruits = [
         price: 4,
     },
     {
-        id: 'pinapple',
+        id: 'pineapple',
         name: 'Pineapple',
         image: '../assets/pineapple.jpg',
         description: 'Tropical fruit with a very tangy sweet taste.',
@@ -41,9 +41,25 @@ export const fruits = [
     },
 ];
 
-export const cart = [
+export const cartArray = [
     {
         id: 'apple',
-        quantity: 4,
+        quantity: 3,
+    },
+    {
+        id: 'banana',
+        quantity: 3,
+    },
+    {
+        id: 'mango',
+        quantity: 3,
+    },
+    {
+        id: 'pineapple',
+        quantity: 3,
+    },
+    {
+        id: 'kiwi',
+        quantity: 3,
     }
 ];
