@@ -7,15 +7,28 @@ table {
     height: 70px;
     font-size: 1.2rem;
     margin: 10px;
-    ;
+}
+
+small {
+    color: white !important;
+}
+
+div {
+    margin-top: 60px;
+}
+
+tr {
+    height: 30px;
+    border: solid 5px  #347cbb;
+    font-size: 1.5em;
 }
 
 td, th {
     border: solid 1px;
 }
 
-tr:nth-child(even) {
-    background: white;
+tr {
+    background-color: white;
 }
 
 th {
@@ -28,7 +41,21 @@ button {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(11, 166, 212); */
+    /* background-image: url("https://bit.ly/3jGA4qU"); */
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border: solid 15px white;
+    padding: 20px;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center; 
+    margin-top: 10px;
 }
 
 .total {
@@ -39,4 +66,10 @@ h1 {
 .unstyle {
     background-color: white;
     border: none
+}
+
+
+body {
+    background: rgb(119,111,111);
+    background: radial-gradient(circle, rgba(119,111,111,1) 0%, rgba(214,219,224,1) 100%);
 }
