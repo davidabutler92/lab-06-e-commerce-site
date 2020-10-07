@@ -18,9 +18,7 @@ const totalCell = document.querySelector('.total');
 totalCell.textContent = `Total: $${total}`;
 
 orderButton.addEventListener('click', () => {
-    console.log('clicked');
+    const stringyCart = JSON.stringify(cart, true, 2);
+    alert(stringyCart);
+    localStorage.clear();
 });
-
-// const stringyCart = JSON.stringify(cart, true, 2);
-// alert(stringyCart);
-// localStorage.clear();
