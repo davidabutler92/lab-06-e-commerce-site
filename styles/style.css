@@ -60,7 +60,7 @@ header {
     justify-content: flex-end;
     background-color: var(--color3);
     height: var(--header-height);
-    box-shadow: var(--shadow);
+    background: none;
 }
 
 footer {

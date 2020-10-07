@@ -2,7 +2,7 @@ import { renderTableRow } from '../cart/cart-utils.js';
 import { calcTotal, getFromLocalStorage, CART } from '../helper-functions.js'; 
 
 const table = document.querySelector('tbody');
-// const orderButton = document.getElementById('#place-order');
+const orderButton = document.getElementById('place-order');
 
 const cart = getFromLocalStorage(CART) || [];
 
@@ -17,9 +17,10 @@ const totalCell = document.querySelector('.total');
 
 totalCell.textContent = `Total: $${total}`;
 
-// orderButton.addEventListener('click', () => {
-//     console.log('clicked');
-//     const stringyCart = JSON.stringify(cart, true, 2);
-//     alert(stringyCart);
-//     localStorage.clear();
-// });
+orderButton.addEventListener('click', () => {
+    console.log('clicked');
+});
+
+// const stringyCart = JSON.stringify(cart, true, 2);
+// alert(stringyCart);
+// localStorage.clear();
