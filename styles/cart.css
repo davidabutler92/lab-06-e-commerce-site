@@ -40,6 +40,10 @@ button {
     
 }
 
+img {
+    border-radius: 50px;
+}
+
 h1 {
     font-size: 5em;
     font-weight: bolder;
