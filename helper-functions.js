@@ -11,7 +11,7 @@ export function findById(someArray, someId) {
     }
 }
 
-export function calcTotal(cartArray, fruits) {
+export function calcTotal(cartArray) {
     let accumulator = 0;
     for (let i = 0; i < cartArray.length; i++) {
         const item = cartArray[i];
