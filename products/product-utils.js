@@ -34,6 +34,7 @@ export function renderFruit(fruits) {
     li.append(price);
 
     button.textContent = 'Add to cart';
+    button.classList = 'add-cart-button';
     button.addEventListener('click', () => {
         const cart = getFromLocalStorage(CART) || [];
         const cartItem = findById(cart, fruits.id);
