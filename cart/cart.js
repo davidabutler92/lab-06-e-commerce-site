@@ -20,5 +20,5 @@ orderButton.addEventListener('click', () => {
     const stringyCart = JSON.stringify(cart, true, 2);
     alert(stringyCart);
     localStorage.clear();
-    window.location.href = '/';
+    window.location.href = '../index.html';
 });
