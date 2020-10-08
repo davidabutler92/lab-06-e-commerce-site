@@ -3,7 +3,6 @@ import { calcTotal, getFromLocalStorage, CART } from '../helper-functions.js';
 
 const table = document.querySelector('tbody');
 const orderButton = document.getElementById('place-order');
-
 const cart = getFromLocalStorage(CART) || [];
 
 for (let i = 0; i < cart.length; i++) {
@@ -21,4 +20,5 @@ orderButton.addEventListener('click', () => {
     const stringyCart = JSON.stringify(cart, true, 2);
     alert(stringyCart);
     localStorage.clear();
+    window.location.href = '/';
 });
