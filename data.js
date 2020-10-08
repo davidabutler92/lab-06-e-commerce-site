@@ -41,25 +41,25 @@ export const fruits = [
     },
 ];
 
-export const cartArray = [
-    {
-        id: 'apple',
-        quantity: 3,
-    },
-    {
-        id: 'banana',
-        quantity: 3,
-    },
-    {
-        id: 'mango',
-        quantity: 3,
-    },
-    {
-        id: 'pineapple',
-        quantity: 3,
-    },
-    {
-        id: 'kiwi',
-        quantity: 3,
-    }
-];
+// export const cartArray = [
+//     {
+//         id: 'apple',
+//         quantity: 3,
+//     },
+//     {
+//         id: 'banana',
+//         quantity: 3,
+//     },
+//     {
+//         id: 'mango',
+//         quantity: 3,
+//     },
+//     {
+//         id: 'pineapple',
+//         quantity: 3,
+//     },
+//     {
+//         id: 'kiwi',
+//         quantity: 3,
+//     }
+// ];
