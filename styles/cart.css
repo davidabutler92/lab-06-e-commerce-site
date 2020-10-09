@@ -35,11 +35,19 @@ th {
     color: white;
 }
 
-button {
-    
+img {
+    border-radius: 50px;
+    margin-right: 30px;
 }
 
-img {
+.thumbnail:hover {
+    position:relative;
+    bottom:-15px;
+    left:-15px;
+    width:100px;
+    height:auto;
+    display:block;
+    z-index:999;
     border-radius: 50px;
     margin-right: 30px;
 }

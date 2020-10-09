@@ -27,6 +27,18 @@ img {
     margin-right: 30px;
 }
 
+.thumbnail:hover {
+    position:relative;
+    bottom:-15px;
+    left:-15px;
+    width:100px;
+    height:auto;
+    display:block;
+    z-index:999;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
 body {
     background: rgb(119,111,111);
     background: radial-gradient(circle, rgba(119,111,111,1) 0%, rgba(214,219,224,1) 100%);
