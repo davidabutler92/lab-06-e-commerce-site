@@ -1,7 +1,5 @@
 import { fruits as hardCodedFruits } from './data.js';
-// import { PRODUCTS } from './constants.js';
-
-const PRODUCTS = 'PRODUCTS';
+import { PRODUCTS } from './constants.js';
 
 export function getLocalStorageFruits() {
     let localStorageFruits = JSON.parse(localStorage.getItem(PRODUCTS));
@@ -22,7 +20,7 @@ export function findById(someArray, someId) {
     }
 }
 
-export function calcTotal(cartArray) {
+export function calcTotal(cartArray, hardCodedFruits) {
     let accumulator = 0;
     for (let i = 0; i < cartArray.length; i++) {
         const item = cartArray[i];
