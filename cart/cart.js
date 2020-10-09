@@ -1,5 +1,6 @@
 import { renderTableRow } from '../cart/cart-utils.js';
-import { calcTotal, getFromLocalStorage, CART } from '../helper-functions.js'; 
+import { calcTotal, getFromLocalStorage, } from '../helper-functions.js';
+import { CART } from '../constants.js'; 
 
 const table = document.querySelector('tbody');
 const orderButton = document.getElementById('place-order');
