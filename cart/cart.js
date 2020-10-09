@@ -1,5 +1,6 @@
 import { renderTableRow } from '../cart/cart-utils.js';
-import { calcTotal, getFromLocalStorage, CART } from '../helper-functions.js'; 
+import { calcTotal, getFromLocalStorage, getLocalStorageFruits } from '../helper-functions.js';
+import { CART } from '../constants.js'; 
 
 const table = document.querySelector('tbody');
 const orderButton = document.getElementById('place-order');
@@ -11,7 +12,9 @@ for (let i = 0; i < cart.length; i++) {
     table.append(tr);
 }
 
-const total = calcTotal(cart);
+const fruitsArray = getLocalStorageFruits();
+
+const total = calcTotal(cart, fruitsArray);
 const totalCell = document.querySelector('.total');
 
 totalCell.textContent = `Total: $${total}`;

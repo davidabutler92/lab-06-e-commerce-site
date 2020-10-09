@@ -1,11 +1,6 @@
-import { fruits } from '../data.js';
-import { findById } from '../helper-functions.js';
-// import { calcTotal } from '../helper-functions.js';
-// import { cartArray } from '../data.js';
+import { findById, getLocalStorageFruits } from '../helper-functions.js';
 
-
-// const tdCartTotal = document.createElement('td');
-// const total = calcTotal(cartArray);
+const localStorageFruits = getLocalStorageFruits();
 
 export function renderTableRow(cartItem) {
     const tr = document.createElement('tr');
@@ -14,7 +9,7 @@ export function renderTableRow(cartItem) {
     const tdQuantity = document.createElement('td');
     const tdTotalCost = document.createElement('td');
     
-    const fruitsData = findById(fruits, cartItem.id);
+    const fruitsData = findById(localStorageFruits, cartItem.id);
     const price = fruitsData.price;
     const title = fruitsData.name;   
     

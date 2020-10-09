@@ -9,7 +9,7 @@
     <link href="../styles/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/products.css">
+    <link rel="stylesheet" href="../styles/admin.css">
     <title>Document</title>
 </head>
 
@@ -21,17 +21,27 @@
     </header>
     <main>
         <section>
-            <h1>Products page</h1>
-                <ul id="list">
-                </ul>
+        <h1>Admin page</h1>
         </section>
+        <form>
+            <label>
+                <input name="id" placeholder="Enter id">
+                <input name="title" placeholder="Enter name">
+                <input name="image" placeholder="Enter image link address">
+                <input name="description" placeholder="Enter description">
+                <input name="category" placeholder="Enter category">
+                <input name="price" placeholder="Enter price">
+                <button class="btn btn-light">Submit</button>
+            </label>
+        </form>
         <a href="../cart/index.html">Go to cart</a>
-        <a href="../admin/index.html">Go to admin</a>
+        <a href="../products/index.html">Go to products</a>
+        <a href="../index.html">Go to home</a>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 David Butler</div>
     </footer>
-    <script type="module" src="./products.js"></script>
+    <script type="module" src="./admin.js"></script>
 </body>
 
 </html>
